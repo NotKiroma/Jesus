@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿internal class Program
+{
+    static void Main(string[] args)
+    {
+        int a = 423;
+        int b = 123;
+        int sum = a+b;
+        Console.WriteLine($"{a} + {b} = {sum}");
+    }
+}
